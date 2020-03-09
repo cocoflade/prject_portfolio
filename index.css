@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+html, body{
+    height: 100%;
+ }
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+/* navigation menu top left */
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+    color: blanchedalmond;
+    text-decoration: none;
+
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+    text-decoration: none;
+
+    /* font-size: x-large; */
+}
+    /* border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#000000,#000000)
+    ,radial-gradient(circle at top left, #fd0000,#f8aa19);
+    background-origin: border-box;
+    background-clip: content-box,border-box; */
+.menu ul li span{
+    display: block;
+    padding: 8px 22px;
+    text-decoration: none;
+}
+/* .logo img {
+    width: 30px;
+    margin-top: -7px;
+    margin-right: 48px;
+
+} */
+.active{
+    color: orange !important;
+}
+/* contact button used to navigate to a form page for me to email them back */
+.contactMe{
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: blanchedalmond;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#000000,#000000)
+    ,radial-gradient(circle at top left, #fd0000,#f8aa19);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+.contactMe span{
+    display: block;
+    padding: 8px 22px;
+}
+.title{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: blanchedalmond
+}
+.paragraph{
+    width: 50%;
+    float: left;
+}
+.paragraph h1{
+    font-size: 45px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+.paragraph p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: blanchedalmond;
+    text-align: justify;
+}
+/* links to various social media right hand side */
+.socialmedia{
+    right: 72px;
+    bottom: 35px;
+    position: absolute;
+    color: blanchedalmond !important;
+}
+.socialmedia ul li{
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+    color: blanchedalmond !important;
+}
+.socialmedia ul li a{
+    color: blanchedalmond;
+    border-radius:50%;
+    border: 1px solid #f8aa19;
+    padding: 15px;
+    display: block;
+    font-size: x-large;
+    text-decoration: none;
+    
+
+}
